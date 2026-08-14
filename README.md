@@ -22,4 +22,4 @@ https://summyya801.github.io/Sticky-Navbar/
 
 ## Screen Recording
 
-Google Drive: PASTE-YOUR-GOOGLE-DRIVE-LINK-HERE
+Google Drive: https://drive.google.com/file/d/1v1hCUIdHmpCzWSAU8RhzRDiioFE5Zelf/view?usp=sharing
