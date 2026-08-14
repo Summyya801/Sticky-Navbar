@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar | Task 5</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container">
+
+            <a href="#home" class="logo">Nova<span>Web</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="section-content">
+            <p class="section-label">WELCOME</p>
+            <h1>Build Something <span>Beautiful</span></h1>
+            <p>
+                A modern responsive website with sticky navigation,
+                smooth scrolling and active section highlighting.
+            </p>
+            <a href="#about" class="cta-button">Explore More</a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-content">
+            <p class="section-label">ABOUT US</p>
+            <h2>We Create Digital Experiences</h2>
+            <p>
+                We design modern, responsive and user-friendly websites
+                that help businesses create a strong online presence.
+            </p>
+
+            <div class="info-cards">
+                <div class="info-card">
+                    <h3>🎨 Creative</h3>
+                    <p>Modern and attractive designs.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>⚡ Fast</h3>
+                    <p>Optimized for a smooth experience.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>📱 Responsive</h3>
+                    <p>Works beautifully on every screen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="section-content">
+            <p class="section-label">OUR SERVICES</p>
+            <h2>What We Do</h2>
+            <p>
+                Explore our range of creative and development services.
+            </p>
+
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="card-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Responsive and modern websites built with clean code.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>
+                        User-friendly interfaces focused on great experiences.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Performance</h3>
+                    <p>
+                        Fast, accessible and optimized digital experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="section-content">
+            <p class="section-label">OUR GALLERY</p>
+            <h2>Creative Showcase</h2>
+            <p>
+                A collection of our favorite creative concepts.
+            </p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-one">
+                    <span>Creative Design</span>
+                </div>
+
+                <div class="gallery-item gallery-two">
+                    <span>Modern Interface</span>
+                </div>
+
+                <div class="gallery-item gallery-three">
+                    <span>Web Experience</span>
+                </div>
+
+                <div class="gallery-item gallery-four">
+                    <span>Digital Future</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-content">
+            <p class="section-label">CONTACT US</p>
+            <h2>Let's Work Together</h2>
+            <p>
+                Have a project in mind? We'd love to hear from you.
+            </p>
+
+            <div class="contact-box">
+                <div>
+                    <strong>Email</strong>
+                    <p>hello@novaweb.com</p>
+                </div>
+
+                <div>
+                    <strong>Phone</strong>
+                    <p>+92 300 1234567</p>
+                </div>
+
+                <div>
+                    <strong>Location</strong>
+                    <p>Pakistan</p>
+                </div>
+            </div>
+
+            <a href="#home" class="cta-button">Back to Home</a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 NovaWeb. Task 5 – Sticky Navbar.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
